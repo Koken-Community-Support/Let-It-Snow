@@ -1,7 +1,7 @@
 {
 	"name": "Let It Snow",
 	"description": "Let it snow on your site",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"demo": "http://varoystrand.se/sidor/let-it-snow-for-koken/",
 	"author": {
 		"name": "Bjarne Varoystrand",
@@ -9,17 +9,45 @@
 	},
 	
 	"data": {
+		"let_it_snow_char": {
+			"label": "Flake character",
+			"info": "Character used for the flake. See http://www.w3schools.com/charsets/ref_utf_dingbats.asp for reference.",
+			"type": "select",
+			"options": [
+				{ "label": "Sparkles", "value": "&#10024;" },
+				{ "label": "Open centre asterisk", "value": "&#10034;" },
+				{ "label": "Eight spoked asterisk", "value": "&#10035;" },
+				{ "label": "Eight pointed pinwheel star", "value": "&#10037;" },
+				{ "label": "Teardrop-spoked asterisk", "value": "&#10043;" },
+				{ "label": "Open centre teardrop-spoked asterisk", "value": "&#10044;" },
+				{ "label": "Heavy teardrop-spoked asterisk", "value": "&#10045;" },
+				{ "label": "Six petalled black and white florette", "value": "&#10046;" },
+				{ "label": "Black florette", "value": "&#10047;" },
+				{ "label": "White florette", "value": "&#10048;" },
+				{ "label": "Eight petalled outlined black florette", "value": "&#10049;" },
+				{ "label": "Heavy teardrop-spoked pinwheel asterisk", "value": "&#10051;" },
+				{ "label": "Snowflake", "value": "&#10052;" },
+				{ "label": "Tight trifoliate snowflake", "value": "&#10053;" },
+				{ "label": "Heavy chevron snowflake", "value": "&#10054;" },
+				{ "label": "Sparkle", "value": "&#10055;" },
+				{ "label": "Heavy sparkle", "value": "&#10056;" },
+				{ "label": "Balloon-spoked asterisk", "value": "&#10057;" },
+				{ "label": "Eight teardrop-spoked propeller asterisk", "value": "&#10058;" },
+				{ "label": "Heavy eight teardrop-spoked propeller asterisk", "value": "&#10059;" }
+			],
+			"value": "&#10052;"
+		},
 		"let_it_snow_minsize": {
 			"label": "Min size",
 			"info": "Min size of snowflake.",
 			"type": "number",
-			"value": 10
+			"value": 20
 		},
 		"let_it_snow_maxsize": {
 			"label": "Max size",
 			"info": "Max size of snowflake.",
 			"type": "number",
-			"value": 20
+			"value": 50
 		},
 		"let_it_snow_newon": {
 			"label": "Snow frequency",
@@ -27,11 +55,23 @@
 			"type": "number",
 			"value": "500"
 		},
-		"let_it_snow_flakecolor": {
+		"let_it_snow_flakecolor1": {
 			"label": "Color",
-			"info": "Color of snowflake.",
+			"info": "Color of snowflake 1.",
 			"type": "color",
 			"value": "#FFFFFF"
+		},
+		"let_it_snow_flakecolor2": {
+			"label": "Color",
+			"info": "Color of snowflake 2.",
+			"type": "color",
+			"value": "#B8B9BA"
+		},
+		"let_it_snow_flakecolor3": {
+			"label": "Color",
+			"info": "Color of snowflake 3.",
+			"type": "color",
+			"value": "#636363"
 		}
 	}
 }
