@@ -1,4 +1,4 @@
-# Let-It-Snow
+# Let-It-Snow for Koken CMS
 Let It Snow for Koken CMS is a lightweight jQuery plugin that puts some snow flakes on your site!
 
 ![Let It Snow For Koken] (https://github.com/Koken-Community-Support/Let-It-Snow/blob/master/jquery-snow.jpg)
