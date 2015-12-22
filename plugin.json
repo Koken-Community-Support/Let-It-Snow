@@ -1,0 +1,37 @@
+{
+	"name": "Let It Snow",
+	"description": "Let it snow on your site",
+	"version": "1.0.0",
+	"demo": "http://varoystrand.se/sidor/let-it-snow-for-koken/",
+	"author": {
+		"name": "Bjarne Varoystrand",
+		"link": "http://varoystrand.se/"
+	},
+	
+	"data": {
+		"let_it_snow_minsize": {
+			"label": "Min size",
+			"info": "Min size of snowflake.",
+			"type": "number",
+			"value": 10
+		},
+		"let_it_snow_maxsize": {
+			"label": "Max size",
+			"info": "Max size of snowflake.",
+			"type": "number",
+			"value": 20
+		},
+		"let_it_snow_newon": {
+			"label": "Snow frequency",
+			"info": "Frequency in ms of appearing of new snowflake.",
+			"type": "number",
+			"value": "500"
+		},
+		"let_it_snow_flakecolor": {
+			"label": "Color",
+			"info": "Color of snowflake.",
+			"type": "color",
+			"value": "#FFFFFF"
+		}
+	}
+}
