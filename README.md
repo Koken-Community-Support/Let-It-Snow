@@ -18,4 +18,4 @@ Support & downloads for Let It Snow can be found here:
 http://kokensupport.varoystrand.se/viewtopic.php?f=17&t=287
 
 #### Credits
-Original creator: Lazarevic Ivan @kopipejst - http://www.jqueryrain.com/
+Original creator: Ivan Lazarevic @kopipejst - http://www.jqueryrain.com/ | https://github.com/kopipejst
